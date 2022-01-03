@@ -1,0 +1,91 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.App-header{
+ background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+ padding: 50px 0;
+}
+main{
+  background: #F3F5F7;
+}
+.Container{
+  max-width: 1000px;
+  margin:auto;
+  width: 100%;
+}
+.Text{
+  display: flex;
+  justify-content: space-between;
+  padding:0px 12px 40px ;
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+}
+.Search{
+  position:relative;
+  padding:0px 12px;
+}
+.Search img{
+  position: absolute;
+  top: 19px;
+  left: 30px;
+}
+.Search input{
+  width: 100%;
+  padding: 21px 5px 22px 64px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+ input::placeholder{
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.Container-Text{
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 12px;
+}
+.date-heart{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  color: #717171;
+  
+}
+
+.News{
+  background: white;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.News h2{
+  margin-bottom: 8px;
+  color: #1A202C;
+  font-size: 26px;
+}
+
+
+.News p{
+  color:#717171;
+  line-height: 32px;
+  font-size: 18px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
